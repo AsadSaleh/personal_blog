@@ -1,4 +1,6 @@
 import React from "react";
+import Callout from "~/components/atomic/Callout";
+import Paragraph from "~/components/atomic/Paragraph";
 
 export default function Journey() {
   return (
@@ -47,10 +49,10 @@ export default function Journey() {
           I was switching between product teams (and technologies) several
           times.
         </Paragraph>
-        <Card>
+        <Callout icon={"💡"}>
           I'll try to highlight the most important ones here, as the full
           summary of my journey is available on my CV.
-        </Card>
+        </Callout>
         <Paragraph>
           At IDN, I was given a chance to lead a Flutter mobile app development
           called "Pelajar". I was always curious to try Flutter, but this is the
@@ -77,15 +79,3 @@ export default function Journey() {
     </main>
   );
 }
-
-const Card = (props: { children: React.ReactNode }) => {
-  return (
-    <div className="max-w-sm rounded overflow-hidden shadow-lg bg-yellow-600/20 mt-2 mb-4">
-      <div className="px-6 py-4">{props.children}</div>
-    </div>
-  );
-};
-
-const Paragraph = (props: { children: React.ReactNode }) => {
-  return <p className="mb-2">{props.children}</p>;
-};
