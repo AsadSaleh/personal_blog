@@ -75,6 +75,7 @@ export default function Journey() {
           also working on a lot of features and bugs. I also started to use git
           rebase daily. At the end of the day, the web app is released.
         </Paragraph>
+        <p>Pengajar Binar Akademi Full Stack Web Batch 30</p>
       </section>
     </main>
   );
