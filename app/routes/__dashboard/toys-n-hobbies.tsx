@@ -5,6 +5,7 @@ export default function ToysAndHobbies() {
       <ul>
         <li>main bola</li>
         <li>merakit gundam</li>
+        <li>laksman menbahkan Hobbies membaca</li>
       </ul>
     </div>
   );
